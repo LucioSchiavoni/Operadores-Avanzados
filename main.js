@@ -70,13 +70,13 @@ const jugador1 = {
     apellido: "Mane",
     edad: 30,
 
-}
+};
 
-const jugador2 = structuredClone(jugador1)
+const jugador2 = structuredClone(jugador1);
 
-let jugador1Nombre = jugador1.nombre
-let jugador1Edad = jugador1.edad
+let jugador1Nombre = jugador1.nombre;
+let jugador1Edad = jugador1.edad;
 
-console.log(jugador1Edad)
-console.log(jugador1.apellido)
-console.log(jugador2.apellido)
+console.log(jugador1Edad);
+console.log(jugador1.apellido);
+console.log(jugador2.apellido);
